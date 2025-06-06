@@ -1,0 +1,29 @@
+[
+    {
+        "nombre": "SISBEN IV",
+        "entidad": "DNP",
+        "proposito": "Clasificaci\u00f3n socioecon\u00f3mica",
+        "tipo": "\u00c1rboles de decisi\u00f3n",
+        "riesgo": "Medio",
+        "sector": "Protecci\u00f3n social",
+        "datos": "Categ\u00f3ricos"
+    },
+    {
+        "nombre": "JurisAI",
+        "entidad": "Consejo de Estado",
+        "proposito": "Priorizaci\u00f3n de tutelas",
+        "tipo": "Machine Learning",
+        "riesgo": "Alto",
+        "sector": "Justicia",
+        "datos": "Texto legal"
+    },
+    {
+        "nombre": "RUAF",
+        "entidad": "MinSalud",
+        "proposito": "Verificaci\u00f3n de afiliaci\u00f3n",
+        "tipo": "Reglas l\u00f3gicas",
+        "riesgo": "Bajo",
+        "sector": "Salud",
+        "datos": "Base relacional"
+    }
+]

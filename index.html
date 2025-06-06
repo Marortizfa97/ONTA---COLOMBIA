@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ONTA - Observatorio Nacional de Transparencia Algorítmica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img src="logo_onta.jpg" alt="Logo ONTA" class="logo">
+  <h1>Observatorio Nacional de Transparencia Algorítmica</h1>
+  <p>Colombia</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#panel">Panel</a>
+  <a href="#graficas">Gráficas</a>
+  <a href="#repositorio">Repositorio</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<main>
+  <section id="inicio">
+    <h2>¿Qué es el ONTA?</h2>
+    <p>El ONTA es una plataforma pública que permite conocer, auditar y comprender el uso de algoritmos en procesos gubernamentales. Busca promover la transparencia, el control ciudadano y la rendición de cuentas sobre decisiones automatizadas.</p>
+  </section>
+
+  <section id="panel">
+    <h2>Panel Ciudadano</h2>
+    <input type="text" id="search" placeholder="Buscar algoritmo o entidad...">
+    <table>
+      <thead>
+        <tr><th>Nombre</th><th>Entidad</th><th>Propósito</th><th>Tipo</th><th>Riesgo</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="ejemplo">
+      <h3>📌 Caso de uso: SISBEN IV</h3>
+      <p>SISBEN IV emplea árboles de decisión para asignar a cada ciudadano un puntaje que define su nivel de acceso a programas sociales. Se basa en información como ingresos, vivienda y composición del hogar.</p>
+    </div>
+  </section>
+
+  <section id="graficas">
+    <h2>Visualización de Datos</h2>
+    <canvas id="sectorChart" height="200"></canvas>
+    <canvas id="tipoDatoChart" height="200"></canvas>
+  </section>
+
+  <section id="repositorio">
+    <h2>Repositorio de Algoritmos</h2>
+    <ul>
+      <li><strong>SISBEN IV</strong>: Clasificación socioeconómica (DNP)</li>
+      <li><strong>JurisAI</strong>: Priorización judicial (Consejo de Estado)</li>
+      <li><strong>RUAF</strong>: Validación afiliaciones (MinSalud)</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Nombre">
+      <input type="email" placeholder="Correo electrónico">
+      <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 ONTA - Colombia</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

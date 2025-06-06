@@ -1,0 +1,15 @@
+
+body { font-family: sans-serif; margin: 0; background: #f0f4f5; }
+header { background: #004b64; color: white; text-align: center; padding: 20px; }
+.logo { width: 80px; }
+nav { background: #007896; text-align: center; padding: 10px; }
+nav a { color: white; margin: 0 15px; text-decoration: none; }
+main { padding: 20px; }
+section { background: white; padding: 20px; margin: 20px auto; max-width: 900px; border-radius: 5px; }
+input, textarea { width: 100%; padding: 10px; margin-bottom: 10px; }
+button { background: #004b64; color: white; border: none; padding: 10px 20px; }
+table { width: 100%; border-collapse: collapse; }
+th { background: #004b64; color: white; }
+td, th { padding: 10px; border: 1px solid #ccc; }
+.ejemplo { background: #e1f4f8; padding: 15px; margin-top: 15px; border-left: 4px solid #007896; }
+footer { background: #222; color: white; text-align: center; padding: 10px; }
